@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GPA Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>OUSL Level 3 GPA Calculator</h1>
+        <form id="gpa-form">
+            <div class="subject">
+                <label for="biogeography">Biogeography (3 credits):</label>
+                <select id="biogeography" class="grade">
+                    <option value="">Select Grade</option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.7">A-</option>
+                    <option value="3.3">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.7">B-</option>
+                    <option value="2.3">C+</option>
+                    <option value="2">C</option>
+                </select>
+            </div>
+            <div class="subject">
+                <label for="animalDiversity">Animal Diversity (5 credits):</label>
+                <select id="animalDiversity" class="grade">
+                    <option value="">Select Grade</option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.7">A-</option>
+                    <option value="3.3">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.7">B-</option>
+                    <option value="2.3">C+</option>
+                    <option value="2">C</option>
+                </select>
+            </div>
+            <div class="subject">
+                <label for="chemistry1">Basic Principles of Chemistry 1 (3 credits):</label>
+                <select id="chemistry1" class="grade">
+                    <option value="">Select Grade</option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.7">A-</option>
+                    <option value="3.3">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.7">B-</option>
+                    <option value="2.3">C+</option>
+                    <option value="2">C</option>
+                </select>
+            </div>
+            <div class="subject">
+                <label for="chemistry2">Basic Principles of Chemistry 2 (2 credits):</label>
+                <select id="chemistry2" class="grade">
+                    <option value="">Select Grade</option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.7">A-</option>
+                    <option value="3.3">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.7">B-</option>
+                    <option value="2.3">C+</option>
+                    <option value="2">C</option>
+                </select>
+            </div>
+            <div class="subject">
+                <label for="practicalChemistry">Practical Chemistry (3 credits):</label>
+                <select id="practicalChemistry" class="grade">
+                    <option value="">Select Grade</option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.7">A-</option>
+                    <option value="3.3">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.7">B-</option>
+                    <option value="2.3">C+</option>
+                    <option value="2">C</option>
+                </select>
+            </div>
+            <div class="subject">
+                <label for="generalThermal">General and Thermal (3 credits):</label>
+                <select id="generalThermal" class="grade">
+                    <option value="">Select Grade</option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.7">A-</option>
+                    <option value="3.3">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.7">B-</option>
+                    <option value="2.3">C+</option>
+                    <option value="2">C</option>
+                </select>
+            </div>
+            <div class="subject">
+                <label for="waves">Waves (2 credits):</label>
+                <select id="waves" class="grade">
+                    <option value="">Select Grade</option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.7">A-</option>
+                    <option value="3.3">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.7">B-</option>
+                    <option value="2.3">C+</option>
+                    <option value="2">C</option>
+                </select>
+            </div>
+            <div class="subject">
+                <label for="electromagnetism">Electromagnetism (3 credits):</label>
+                <select id="electromagnetism" class="grade">
+                    <option value="">Select Grade</option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.7">A-</option>
+                    <option value="3.3">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.7">B-</option>
+                    <option value="2.3">C+</option>
+                    <option value="2">C</option>
+                </select>
+            </div>
+            <div class="subject">
+                <label for="msu">MSU (2 credits):</label>
+                <select id="msu" class="grade">
+                    <option value="">Select Grade</option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.7">A-</option>
+                    <option value="3.3">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.7">B-</option>
+                    <option value="2.3">C+</option>
+                    <option value="2">C</option>
+                </select>
+            </div>
+            <div class="subject">
+                <label for="dsuEthics">DSU/Ethics (2 credits):</label>
+                <select id="dsuEthics" class="grade">
+                    <option value="">Select Grade</option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.7">A-</option>
+                    <option value="3.3">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.7">B-</option>
+                    <option value="2.3">C+</option>
+                    <option value="2">C</option>
+                </select>
+            </div>
+            <div class="subject">
+                <label for="fnu">FNU (2 credits):</label>
+                <select id="fnu" class="grade">
+                    <option value="">Select Grade</option>
+                    <option value="4">A+</option>
+                    <option value="4">A</option>
+                    <option value="3.7">A-</option>
+                    <option value="3.3">B+</option>
+                    <option value="3">B</option>
+                    <option value="2.7">B-</option>
+                    <option value="2.3">C+</option>
+                    <option value="2">C</option>
+                </select>
+            </div>
+            <button type="button" onclick="calculateGPA()">Calculate GPA</button>
+        </form>
+        <div id="result">
+            <h2>Your GPA is: <span id="gpa">0.00</span></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

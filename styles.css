@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.subject {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+label {
+    flex: 1;
+    color: #555555;
+}
+
+.grade {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #dddddd;
+    border-radius: 4px;
+    text-align: right;
+}
+
+button {
+    background-color: #000080;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #000080;
+}
+
+#result {
+    margin-top: 20px;
+}
+
+#gpa {
+    color: #000080;
+}
